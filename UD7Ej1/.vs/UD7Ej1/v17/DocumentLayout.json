@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|c:\\users\\fran\\source\\repos\\fg-21\\sge\\ud5\\ud7ej1\\ud7ej1\\views\\home\\editarpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|solutionrelative:ud7ej1\\views\\home\\editarpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|c:\\users\\fran\\source\\repos\\fg-21\\sge\\ud5\\ud7ej1\\ud7ej1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|solutionrelative:ud7ej1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|c:\\users\\fran\\source\\repos\\fg-21\\sge\\ud5\\ud7ej1\\ud7ej1\\models\\data\\repodepa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|solutionrelative:ud7ej1\\models\\data\\repodepa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|c:\\users\\fran\\source\\repos\\fg-21\\sge\\ud5\\ud7ej1\\ud7ej1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|solutionrelative:ud7ej1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|c:\\users\\fran\\source\\repos\\fg-21\\sge\\ud5\\ud7ej1\\ud7ej1\\views\\home\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|solutionrelative:ud7ej1\\views\\home\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|c:\\users\\fran\\source\\repos\\fg-21\\sge\\ud5\\ud7ej1\\ud7ej1\\models\\entities\\clsdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|solutionrelative:ud7ej1\\models\\entities\\clsdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|c:\\users\\fran\\source\\repos\\fg-21\\sge\\ud5\\ud7ej1\\ud7ej1\\models\\data\\repopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFAC42C0-0EB3-4C3D-9E28-7B90B8C277F8}|UD7Ej1\\UD7Ej1.csproj|solutionrelative:ud7ej1\\models\\data\\repopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UD7Ej1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UD7Ej1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T19:35:48.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Views\\Home\\Lista.cshtml",
+              "RelativeDocumentMoniker": "UD7Ej1\\Views\\Home\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Views\\Home\\Lista.cshtml",
+              "RelativeToolTip": "UD7Ej1\\Views\\Home\\Lista.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T19:27:46.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsDepartamento.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Models\\Entities\\clsDepartamento.cs",
+              "RelativeDocumentMoniker": "UD7Ej1\\Models\\Entities\\clsDepartamento.cs",
+              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Models\\Entities\\clsDepartamento.cs",
+              "RelativeToolTip": "UD7Ej1\\Models\\Entities\\clsDepartamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:27:17.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "repoPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Models\\Data\\repoPersonas.cs",
+              "RelativeDocumentMoniker": "UD7Ej1\\Models\\Data\\repoPersonas.cs",
+              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Models\\Data\\repoPersonas.cs",
+              "RelativeToolTip": "UD7Ej1\\Models\\Data\\repoPersonas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:25:56.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "repoDepa.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Models\\Data\\repoDepa.cs",
+              "RelativeDocumentMoniker": "UD7Ej1\\Models\\Data\\repoDepa.cs",
+              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Models\\Data\\repoDepa.cs",
+              "RelativeToolTip": "UD7Ej1\\Models\\Data\\repoDepa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:25:19.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditarPersona.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Views\\Home\\EditarPersona.cshtml",
+              "RelativeDocumentMoniker": "UD7Ej1\\Views\\Home\\EditarPersona.cshtml",
+              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Views\\Home\\EditarPersona.cshtml",
+              "RelativeToolTip": "UD7Ej1\\Views\\Home\\EditarPersona.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T19:17:45.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UD7Ej1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Fg-21\\SGE\\UD5\\UD7Ej1\\UD7Ej1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UD7Ej1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:17:16.562Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

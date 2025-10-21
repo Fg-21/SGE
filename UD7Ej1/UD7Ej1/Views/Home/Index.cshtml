@@ -1,0 +1,13 @@
+﻿@model UD7Ej1.Models.Entities.Persona
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <p>@ViewData["msg"]</p>
+    <p>@ViewBag.date</p>
+    <p>@Model.nombre</p>
+    @Html.ActionLink("IR A LISTADO", "Lista", "Home")
+    @Html.ActionLink("IR A EDITAR PERSONA", "EditarPersona", "Home")
+</div>
