@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using UD7Ej1.Models;
 using UD7Ej1.Models.Data;
 using UD7Ej1.Models.Entities;
+using UD7Ej1.Models.ViewModels;
 
 namespace UD7Ej1.Controllers
 {
@@ -45,47 +46,22 @@ namespace UD7Ej1.Controllers
         public IActionResult Lista()
         {
 
-
-            //litado de las personas
-            var repo = new repoPersonas();
-
-            return View(repo.listado);
+            return View();
         }
 
         public IActionResult Detalle2()
         {
-            var repo = new repoPersonas();
-            return View(repo.listado[2]);
+            return View(); 
         }
 
         public IActionResult EditarPersona()
         {
-            //litado de las personas
-            var repoPers = new repoPersonas();
-
-            //listado de los departamentos
-            var repoDepa = new repoDepa();
-
-
-            //persona seleccionada al azar
-            Persona personaRandom;
-
-            //random
-            Random rand = new Random();
-
-            //id random
-            int idRandom = rand.Next(0, repoPers.listado.Count);
-
-            //capturar la parsona con ese id
-            personaRandom = repoPers.listado.First(persona => persona.id == idRandom);
-
-            ViewBag.listaDepa = repoDepa.listado;
-
-            return View(personaRandom);
+            EditarPersonaVM vm = new EditarPersonaVM();
+            return View(vm);
         }
 
 
-
+        //Me gustan los pitos grueso y venosos
 
 
 

@@ -1,5 +1,4 @@
-﻿@using UD7Ej1.Models.Entities
-@model UD7Ej1.Models.Entities.Persona
+﻿@model UD7Ej1.Models.ViewModels.EditarPersonaVM
 
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,14 +10,14 @@
 
 <form>
     <label>Nombre</label>
-    @Html.TextBoxFor(model => model.nombre)
+    @Html.TextBoxFor(model => model.persona.nombre)
     <br />
     <label>Edad</label>
-    @Html.TextBoxFor(model => model.edad)
+    @Html.TextBoxFor(model => model.persona.edad)
     <br />
     <label>Departamentos</label>
     <select name="Departamentos">
-        @foreach(var depa in (List<clsDepartamento>)ViewBag.listaDepa)
+        @foreach(var depa in Model.departamentos)
         {
             <option id="@depa.id">@depa.nombre</option>
         }

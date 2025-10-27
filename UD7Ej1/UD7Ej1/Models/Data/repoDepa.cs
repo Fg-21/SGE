@@ -4,11 +4,9 @@ namespace UD7Ej1.Models.Data
 {
     public class repoDepa
     {
-        private List<clsDepartamento> listaDepas;
-
-        public repoDepa() {
-
-            listaDepas = new List<clsDepartamento>
+        public static List<clsDepartamento> getDepartamentos()
+        {
+            return new List<clsDepartamento>
             {
                 new clsDepartamento(id: 0, nombre: "Marketing"),
                 new clsDepartamento(id: 1, nombre: "Recursos Humanos"),
@@ -16,15 +14,6 @@ namespace UD7Ej1.Models.Data
                 new clsDepartamento(id: 3, nombre: "Tecnología"),
                 new clsDepartamento(id: 4, nombre: "Ventas")
             };
-
-        }
-
-        public List<clsDepartamento> listado
-        {
-            get
-            {
-                return listaDepas;
-            }
         }
     }
 }
