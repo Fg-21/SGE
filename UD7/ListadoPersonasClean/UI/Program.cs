@@ -1,7 +1,15 @@
+using CompositionRoot;
+using Data.Repositories;
+using Domain.Interfaces;
+using Domain.Repos;
+using Domain.UseCases;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddCompositionRoute(builder.Configuration);
 
 var app = builder.Build();
 

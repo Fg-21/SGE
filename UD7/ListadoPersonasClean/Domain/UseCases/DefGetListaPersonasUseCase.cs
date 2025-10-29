@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Interfaces;
 using Domain.Repos;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Domain.UseCases
 {
-    public class DefGetListaPersonasUseCase
+    public class DefGetListaPersonasUseCase : IGetListaPersonasUseCase
     {
         private readonly IGetListaPersonas _repository;
 
