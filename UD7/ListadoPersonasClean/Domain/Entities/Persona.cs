@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Persona
+    public class  Persona
     {
         #region atributos privados
         private int _id;
