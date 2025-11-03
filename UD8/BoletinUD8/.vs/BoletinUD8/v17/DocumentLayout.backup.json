@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\",
+  "WorkspaceRootPath": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97DCB3A6-502D-453A-B9A6-2132DC554143}|EJ1\\EJ1.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\boletinud8\\ej1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97DCB3A6-502D-453A-B9A6-2132DC554143}|EJ1\\EJ1.csproj|solutionrelative:ej1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\boletinud8\\ej3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|solutionrelative:ej3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97DCB3A6-502D-453A-B9A6-2132DC554143}|EJ1\\EJ1.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\boletinud8\\ej1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97DCB3A6-502D-453A-B9A6-2132DC554143}|EJ1\\EJ1.csproj|solutionrelative:ej1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\boletinud8\\ej3\\views\\home\\personamodificada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|solutionrelative:ej3\\views\\home\\personamodificada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97DCB3A6-502D-453A-B9A6-2132DC554143}|EJ1\\EJ1.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\boletinud8\\ej1\\views\\home\\saludo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97DCB3A6-502D-453A-B9A6-2132DC554143}|EJ1\\EJ1.csproj|solutionrelative:ej1\\views\\home\\saludo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\boletinud8\\ej3\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|solutionrelative:ej3\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\boletinud8\\ej3\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|solutionrelative:ej3\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "EJ3\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Models\\Persona.cs",
+              "RelativeToolTip": "EJ3\\Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T17:02:21.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Saludo.cshtml",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ1\\Views\\Home\\Saludo.cshtml",
-              "RelativeDocumentMoniker": "EJ1\\Views\\Home\\Saludo.cshtml",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ1\\Views\\Home\\Saludo.cshtml",
-              "RelativeToolTip": "EJ1\\Views\\Home\\Saludo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\Editar.cshtml",
+              "RelativeDocumentMoniker": "EJ3\\Views\\Home\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\Editar.cshtml",
+              "RelativeToolTip": "EJ3\\Views\\Home\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T13:29:58.277Z",
+              "WhenOpened": "2025-11-03T16:55:17.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EJ1\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "EJ1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T13:29:19.426Z",
+              "Title": "PersonaModificada.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\PersonaModificada.cshtml",
+              "RelativeDocumentMoniker": "EJ3\\Views\\Home\\PersonaModificada.cshtml",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\PersonaModificada.cshtml",
+              "RelativeToolTip": "EJ3\\Views\\Home\\PersonaModificada.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T16:46:43.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "EJ1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "EJ1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T13:29:17.932Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EJ3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EJ3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T16:44:20.859Z",
               "EditorCaption": ""
             }
           ]
