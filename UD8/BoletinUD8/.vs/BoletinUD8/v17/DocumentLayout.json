@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\",
+  "WorkspaceRootPath": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\boletinud8\\ej3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\boletinud8\\ej3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|solutionrelative:ej3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\boletinud8\\ej3\\views\\home\\personamodificada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\boletinud8\\ej3\\views\\home\\personamodificada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|solutionrelative:ej3\\views\\home\\personamodificada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\boletinud8\\ej3\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\boletinud8\\ej3\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|solutionrelative:ej3\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\boletinud8\\ej3\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\boletinud8\\ej3\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{158AAA83-D37F-4363-A47F-A58954C2792A}|EJ3\\EJ3.csproj|solutionrelative:ej3\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,48 +32,45 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Models\\Persona.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Models\\Persona.cs",
               "RelativeDocumentMoniker": "EJ3\\Models\\Persona.cs",
-              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Models\\Persona.cs",
               "RelativeToolTip": "EJ3\\Models\\Persona.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:02:21.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T17:02:21.198Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\Editar.cshtml",
               "RelativeDocumentMoniker": "EJ3\\Views\\Home\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\Editar.cshtml",
               "RelativeToolTip": "EJ3\\Views\\Home\\Editar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T16:55:17.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T16:55:17.596Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PersonaModificada.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\PersonaModificada.cshtml",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\PersonaModificada.cshtml",
               "RelativeDocumentMoniker": "EJ3\\Views\\Home\\PersonaModificada.cshtml",
-              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\PersonaModificada.cshtml",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Views\\Home\\PersonaModificada.cshtml",
               "RelativeToolTip": "EJ3\\Views\\Home\\PersonaModificada.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T16:46:43.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T16:46:43.093Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EJ3\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\BoletinUD8\\EJ3\\Controllers\\HomeController.cs",
               "RelativeToolTip": "EJ3\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
