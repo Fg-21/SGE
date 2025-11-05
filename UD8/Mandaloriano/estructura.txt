@@ -1,0 +1,24 @@
+/CompositionRoot
+	DI.cs: 
+
+/DATA
+	/Repos	
+		RepoMisiones.cs: Devuleve un listado de las misiones con sus descripciones y recompensas (MOCK)
+/DOMAIN
+	/Entities
+		Misión.cs: Entidad para cada una de las misiones con su nombre, descripción y cantidad de recompensa
+	/IRepos
+		IRepoMisiones.cs: Interfaz del repositorio de misiones
+	/UseCases
+		BeforeMidnightCase.cs: Se controlará que sean más de las 8 de la tarde o menos
+	/IUseCases
+		IBeforeMidnightUseCase.cs: Interfaz del caso de uso  
+	
+/UI
+	/Models
+	/Controllers
+		HomeController.cs
+	/Views
+		Index.cshtml
+		
+Program.cs: 
