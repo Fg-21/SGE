@@ -3,22 +3,29 @@
 
 /DATA
 	/Repos	
-		RepoMisiones.cs: Devuleve un listado de las misiones con sus descripciones y recompensas (MOCK)
+		RepoMisiones.cs: IRepoMisiones
+		+ getListaMisiones()
 /DOMAIN
 	/Entities
-		Misión.cs: Entidad para cada una de las misiones con su nombre, descripción y cantidad de recompensa
+		Misión.cs
+		- nombre String
+		- detalles String
+		+ Misión(nombre String, detalles String)
+		+ getNombre()
+		+getDetalles()
 	/IRepos
-		IRepoMisiones.cs: Interfaz del repositorio de misiones
+		IRepoMisiones.cs
+		+
 	/UseCases
-		BeforeMidnightCase.cs: Se controlará que sean más de las 8 de la tarde o menos
-	/IUseCases
-		IBeforeMidnightUseCase.cs: Interfaz del caso de uso  
+		BeforeMidnightCase.cs: IBeforeMidnightUseCase (Inyecta IRepoMisiones)
+	/IUseCase
+		IBeforeMidnightUseCase.cs
 	
 /UI
 	/Models
 	/Controllers
-		HomeController.cs
+		HomeController.cs: Controlador que devolverá en su IAction una vista a la que se le pasará el método del caso de uso
 	/Views
-		Index.cshtml
+		Index.cshtml: Vista para el listado de las misiones
 		
 Program.cs: 
