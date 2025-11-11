@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\",
+  "WorkspaceRootPath": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud7\\listadopersonasclean\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud7\\listadopersonasclean\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{443FE8FD-0CC6-49D0-947E-93C43FB6E980}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud7\\listadopersonasclean\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{443FE8FD-0CC6-49D0-947E-93C43FB6E980}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud7\\listadopersonasclean\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{443FE8FD-0CC6-49D0-947E-93C43FB6E980}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud7\\listadopersonasclean\\domain\\interfaces\\igetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud7\\listadopersonasclean\\domain\\interfaces\\igetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\igetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud7\\listadopersonasclean\\domain\\repos\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud7\\listadopersonasclean\\domain\\repos\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|solutionrelative:domain\\repos\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud7\\listadopersonasclean\\domain\\usecases\\defgetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud7\\listadopersonasclean\\domain\\usecases\\defgetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\defgetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud7\\listadopersonasclean\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud7\\listadopersonasclean\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud7\\listadopersonasclean\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud7\\listadopersonasclean\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BA1EFFD-3E31-42AC-89D9-305D2EF6D404}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud7\\listadopersonasclean\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud7\\listadopersonasclean\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE9A230E-4A2E-4A25-9FA5-D919E18CC7AB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Program.cs",
               "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Program.cs",
               "RelativeToolTip": "UI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -61,9 +61,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IGetListaPersonas.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Repos\\IGetListaPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Repos\\IGetListaPersonas.cs",
               "RelativeDocumentMoniker": "Domain\\Repos\\IGetListaPersonas.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Repos\\IGetListaPersonas.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Repos\\IGetListaPersonas.cs",
               "RelativeToolTip": "Domain\\Repos\\IGetListaPersonas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,22 +73,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DI.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\CompositionRoot\\DI.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\CompositionRoot\\DI.cs",
               "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\CompositionRoot\\DI.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\CompositionRoot\\DI.cs",
               "RelativeToolTip": "CompositionRoot\\DI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T12:43:44.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T12:43:44.329Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Entities\\Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Entities\\Persona.cs",
               "RelativeToolTip": "Domain\\Entities\\Persona.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -110,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IGetListaPersonasUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -122,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\UI\\Controllers\\HomeController.cs",
               "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,9 +134,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DefGetListaPersonasUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\UseCases\\DefGetListaPersonasUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\UseCases\\DefGetListaPersonasUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCases\\DefGetListaPersonasUseCase.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\UseCases\\DefGetListaPersonasUseCase.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD7\\ListadoPersonasClean\\Domain\\UseCases\\DefGetListaPersonasUseCase.cs",
               "RelativeToolTip": "Domain\\UseCases\\DefGetListaPersonasUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
