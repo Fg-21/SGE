@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\repos\\repopersonasazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\repos\\repopersonasazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\repos\\repopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\repos\\repopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA09E2C-E408-4772-8BF5-7432306FDA24}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA09E2C-E408-4772-8BF5-7432306FDA24}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\db\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\db\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA09E2C-E408-4772-8BF5-7432306FDA24}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\compositionroot\\compositionroot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5FA09E2C-E408-4772-8BF5-7432306FDA24}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\compositionroot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepoPersonasAzure.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonasAzure.cs",
+              "RelativeDocumentMoniker": "Data\\Repos\\RepoPersonasAzure.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonasAzure.cs",
+              "RelativeToolTip": "Data\\Repos\\RepoPersonasAzure.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:30:04.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\DB\\Connection.cs",
+              "RelativeDocumentMoniker": "Data\\DB\\Connection.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\DB\\Connection.cs",
+              "RelativeToolTip": "Data\\DB\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:21:37.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T13:16:00.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompositionRoot",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\CompositionRoot.csproj",
+              "RelativeDocumentMoniker": "CompositionRoot\\CompositionRoot.csproj",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\CompositionRoot.csproj",
+              "RelativeToolTip": "CompositionRoot\\CompositionRoot.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T13:10:27.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UI",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T13:04:20.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepoPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonas.cs",
+              "RelativeDocumentMoniker": "Data\\Repos\\RepoPersonas.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonas.cs",
+              "RelativeToolTip": "Data\\Repos\\RepoPersonas.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:03:15.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DI.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\DI.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\DI.cs",
+              "RelativeToolTip": "CompositionRoot\\DI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:02:47.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Entities\\Departamento.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Departamento.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Entities\\Departamento.cs",
+              "RelativeToolTip": "Domain\\Entities\\Departamento.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:59:02.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Entities\\Persona.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Entities\\Persona.cs",
+              "RelativeToolTip": "Domain\\Entities\\Persona.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:48:13.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
