@@ -1,12 +1,190 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\Mandaloriano\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{747AAC7E-43E1-4296-BB94-FB96C007D417}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747AAC7E-43E1-4296-BB94-FB96C007D417}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\domain\\entities\\misi\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|solutionrelative:domain\\entities\\misi\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\domain\\usecases\\antesmedioanocheusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|solutionrelative:domain\\usecases\\antesmedioanocheusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\domain\\interfaces\\iantesmedianocheusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|solutionrelative:domain\\interfaces\\iantesmedianocheusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\domain\\interfaces\\irepomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|solutionrelative:domain\\interfaces\\irepomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA29E7-BB30-4B03-ADFA-E2AEF6510F37}|DATA\\DATA.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\data\\repositories\\repomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA29E7-BB30-4B03-ADFA-E2AEF6510F37}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\repomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA29E7-BB30-4B03-ADFA-E2AEF6510F37}|DATA\\DATA.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2DA29E7-BB30-4B03-ADFA-E2AEF6510F37}|DATA\\DATA.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D8E440A7-0DE5-426C-A897-C6987771AB21}|DOMAIN\\DOMAIN.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB048DAC-EDEE-4AE4-A4F1-D5CD88E36841}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\compositionroot\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB048DAC-EDEE-4AE4-A4F1-D5CD88E36841}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747AAC7E-43E1-4296-BB94-FB96C007D417}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\mandaloriano\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{747AAC7E-43E1-4296-BB94-FB96C007D417}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AntesMedioanocheUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\UseCases\\AntesMedioanocheUseCase.cs",
+              "RelativeDocumentMoniker": "DOMAIN\\UseCases\\AntesMedioanocheUseCase.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\UseCases\\AntesMedioanocheUseCase.cs",
+              "RelativeToolTip": "DOMAIN\\UseCases\\AntesMedioanocheUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:34:09.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Misi\u00F3n.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\Entities\\Misi\u00F3n.cs",
+              "RelativeDocumentMoniker": "DOMAIN\\Entities\\Misi\u00F3n.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\Entities\\Misi\u00F3n.cs",
+              "RelativeToolTip": "DOMAIN\\Entities\\Misi\u00F3n.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:32:56.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:13:36.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAntesMediaNocheUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\Interfaces\\IAntesMediaNocheUseCase.cs",
+              "RelativeDocumentMoniker": "DOMAIN\\Interfaces\\IAntesMediaNocheUseCase.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\Interfaces\\IAntesMediaNocheUseCase.cs",
+              "RelativeToolTip": "DOMAIN\\Interfaces\\IAntesMediaNocheUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:35:41.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepoMisiones.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\Interfaces\\IRepoMisiones.cs",
+              "RelativeDocumentMoniker": "DOMAIN\\Interfaces\\IRepoMisiones.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\Interfaces\\IRepoMisiones.cs",
+              "RelativeToolTip": "DOMAIN\\Interfaces\\IRepoMisiones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:36:33.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepoMisiones.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DATA\\Repositories\\RepoMisiones.cs",
+              "RelativeDocumentMoniker": "DATA\\Repositories\\RepoMisiones.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DATA\\Repositories\\RepoMisiones.cs",
+              "RelativeToolTip": "DATA\\Repositories\\RepoMisiones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:31:37.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DATA",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DATA\\DATA.csproj",
+              "RelativeDocumentMoniker": "DATA\\DATA.csproj",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DATA\\DATA.csproj",
+              "RelativeToolTip": "DATA\\DATA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T22:29:37.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DOMAIN",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\DOMAIN.csproj",
+              "RelativeDocumentMoniker": "DOMAIN\\DOMAIN.csproj",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\DOMAIN\\DOMAIN.csproj",
+              "RelativeToolTip": "DOMAIN\\DOMAIN.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T22:27:59.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\CompositionRoot\\Class1.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\Class1.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\CompositionRoot\\Class1.cs",
+              "RelativeToolTip": "CompositionRoot\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:26:06.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UI",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\Mandaloriano\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T22:28:19.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
