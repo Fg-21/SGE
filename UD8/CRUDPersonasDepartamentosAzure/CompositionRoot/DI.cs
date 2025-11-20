@@ -12,7 +12,7 @@ namespace CompositionRoot
     {
         public static IServiceCollection AddCompositionRoute(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddScoped<IGetListaPersonas, RepoPersonas>();
+            services.AddScoped<IRepoPersonasDepartamentos, RepoPersonas>();
             services.AddScoped<IGetListaPersonasUseCase, DefGetListaPersonasUseCase>();
 
             return services;

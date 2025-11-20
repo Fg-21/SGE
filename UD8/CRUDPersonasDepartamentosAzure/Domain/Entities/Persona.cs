@@ -11,11 +11,12 @@ namespace Domain.Entities
         #region atributos privados
         private int _id;
         private string _nombre;
-        private string _apellido;
+        private string _apellidos;
         private string _telefono;
         private string _direccion;
         private string _foto;
         private DateTime _fecha;
+        private int _idDepartamento;
         #endregion
 
         #region getters y setters
@@ -30,10 +31,10 @@ namespace Domain.Entities
             set { _nombre = value; }
         }
 
-        public string apellido
+        public string apellidos
         {
-            get { return _apellido; }
-            set { _apellido = value; }
+            get { return _apellidos; }
+            set { _apellidos = value; }
         }
 
         public string telefono
@@ -59,20 +60,26 @@ namespace Domain.Entities
             get { return _fecha; }
             set { _fecha = value; }
         }
+        public int idDepartamento
+        {
+            get { return _idDepartamento; }
+            set { _idDepartamento = value; }
+        }
         #endregion
 
         #region constructores
         public Persona() { }
 
-        public Persona(int id, string nombre, string apellido, string telefono, string direccion, string foto, DateTime fecha)
+        public Persona(int id, string nombre, string apellido, string telefono, string direccion, string foto, DateTime fecha, int idDepartamento)
         {
             _id = id;
             _nombre = nombre;
-            _apellido = apellido;
+            _apellidos = apellido;
             _telefono = telefono;
             _direccion = direccion;
             _foto = foto;
             _fecha = fecha;
+            _idDepartamento = idDepartamento;
         }
         #endregion
 

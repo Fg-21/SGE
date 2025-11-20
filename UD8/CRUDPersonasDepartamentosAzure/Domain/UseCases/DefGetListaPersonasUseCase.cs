@@ -11,9 +11,9 @@ namespace Domain.UseCases
 {
     public class DefGetListaPersonasUseCase : IGetListaPersonasUseCase
     {
-        private readonly IGetListaPersonas _repository;
+        private readonly IRepoPersonasDepartamentos _repository;
 
-        public DefGetListaPersonasUseCase(IGetListaPersonas getListaPersonas)
+        public DefGetListaPersonasUseCase(IRepoPersonasDepartamentos getListaPersonas)
         {
             _repository = getListaPersonas;
         }
