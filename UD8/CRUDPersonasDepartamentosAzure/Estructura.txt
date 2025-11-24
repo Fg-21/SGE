@@ -1,0 +1,78 @@
+CompositionRoot/
+	DI.cs
+		public static class DI
+			+ static IServiceCollection AddCompositionRoute(this IServiceCollection services, IConfiguration configuration)
+Data/
+	DB/
+		Connection.cs
+			public class Connection 
+				+ static string getConectionString()
+	Repos/
+		RepoPersonas.cs
+			public class RepoPersonas : IRepoPersonas
+				+ int createPersona(Persona newPersona){}
+				+ Persona getPersonaById(int id){}
+				+ Persona[] getListaPersonas(){}
+				+ int updatePersona(Persona ePersona){}
+				+ int deletePersona(int id){}
+		RepoDepartamentos.cs
+			public class RepoDepartamentos : IRepoDepartamentos{}
+				+ int createDepartamento(Departamento newDeparamento){}
+				+ Departamento getDepartamentoById(int id){}
+				+ Departamento[] getListaDepartamento(){}
+				+ int updateDepartamento(Departamento eDepartamento){}
+				+ int deleteDepartamento(int id){} 
+Domain/
+	Entities/
+		Persona.cs
+			public class Persona
+				- int _id
+				- string _nombre
+				- string _apellidos
+				- string _telefono
+				- string _dirección
+				- string _foto
+				- DateTime _fecha
+				- int _idDepartamento
+
+				+ int getID()
+				+ string getNombre()
+				+ string getApellidos()
+				+ string getTelefono()
+				+ string getDireccion()
+				+ string getFoto()
+				+ DateTime getFecha()
+				+ int getIDDepartamento()
+
+				+ setID(int newID)
+				+ setNombre(string newNombre)
+				+ setApellidos(string newApellidos)
+				+ setTelefono(string newTelefono)
+				+ setDireccion(string newDireccion)
+				+ setFoto(string newFoto)
+				+ setFecha(DateTime newFecha)
+				+ setIDDepartamento(int newIDDepartamento)
+
+				+ Persona(){}
+				+ Persona(int id, string nombre, string apellidos, string telefono, string foto, DateTime fecha, int idDepartamento){}
+		
+		Departamento.cs
+			public class Departamento
+				- int _id
+				- string _nombre
+
+				+ int getID()
+				+ srting getNombre()
+				
+				+ setID(int newID)
+				+ setNombre(string newNombre)
+
+				+ Departamento()
+				+ Departamento(int id, string nombre)
+	Interfaces/
+	UseCases/
+	Dtos/
+UI/
+	Controllers/
+	Models/
+	Views/
