@@ -55,7 +55,7 @@ Domain/
 
 				+ Persona(){}
 				+ Persona(int id, string nombre, string apellidos, string telefono, string foto, DateTime fecha, int idDepartamento){}
-		
+
 		Departamento.cs
 			public class Departamento
 				- int _id
@@ -70,6 +70,46 @@ Domain/
 				+ Departamento()
 				+ Departamento(int id, string nombre)
 	Interfaces/
+		IRepoPersonas.cs
+			public interface IRepoPersonas
+				+ int createPersona(Persona newPersona);
+				+ Persona getPersonaById(int id);
+				+ Persona[] getListaPersonas();
+				+ int updatePersona(Persona ePersona);
+				+ int deletePersona(int id);
+
+		IRepoDepartamentos.cs
+			public interface IRepoDepartamentos
+				+ int createDepartamento(Departamento newDeparamento);
+				+ Departamento getDepartamentoById(int id);
+				+ Departamento[] getListaDepartamento();
+				+ int updateDepartamento(Departamento eDepartamento);
+				+ int deleteDepartamento(int id);
+
+		IPersonasUseCase.cs
+			public interface IPersonasUseCase
+				+ int createPersona(Persona newPersona);
+				+ Persona getPersonaById(int id);
+				+ Persona[] getListaPersonas();
+				+ int updatePersona(Persona ePersona);
+				+ int deletePersona(int id);
+
+		IDepartamentosUseCase.cs
+			public interface IDepartamentosUseCase
+				+ int createDepartamento(Departamento newDeparamento);
+				+ Departamento getDepartamentoById(int id);
+				+ Departamento[] getListaDepartamento();
+				+ int updateDepartamento(Departamento eDepartamento);
+				+ int deleteDepartamento(int id);
+		
+		IPersonaWithListaDepartamentosDtoUseCase.cs
+			public interface IPersonaWithListaDepartamentosDTOUseCase
+				+ PersonaWithListaDepartamentosDto getPersonaWithListaDepartamentos(int idPersona);
+
+		IPersonaWithNombreDepartamentoDtoUseCase.cs
+			public interface IPersonaWithNombreDepartamentoDtoUseCase
+				+ PersonaWithNombreDepartamentoDto getPersonaWithNombreDepartamentoById(int idPersona)
+									
 	UseCases/
 	Dtos/
 UI/
