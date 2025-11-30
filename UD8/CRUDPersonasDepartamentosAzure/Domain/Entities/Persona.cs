@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class  Persona
+    public class Persona
     {
-        #region atributos privados
+        #region Fields
         private int _id;
         private string _nombre;
         private string _apellidos;
         private string _telefono;
-        private string _direccion;
+        private string _dirección;
         private string _foto;
         private DateTime _fecha;
         private int _idDepartamento;
         #endregion
 
-        #region getters y setters
-        public int id { 
+        #region Properties
+        public int id
+        {
             get { return _id; }
             set { _id = value; }
         }
@@ -45,8 +46,8 @@ namespace Domain.Entities
 
         public string direccion
         {
-            get { return _direccion; }
-            set { _direccion = value; }
+            get { return _dirección; }
+            set { _dirección = value; }
         }
 
         public string foto
@@ -60,6 +61,7 @@ namespace Domain.Entities
             get { return _fecha; }
             set { _fecha = value; }
         }
+
         public int idDepartamento
         {
             get { return _idDepartamento; }
@@ -67,21 +69,20 @@ namespace Domain.Entities
         }
         #endregion
 
-        #region constructores
+        #region Constructors
         public Persona() { }
 
-        public Persona(int id, string nombre, string apellido, string telefono, string direccion, string foto, DateTime fecha, int idDepartamento)
+        public Persona(int id, string nombre, string apellidos, string telefono, string foto, DateTime fecha, int idDepartamento)
         {
             _id = id;
             _nombre = nombre;
-            _apellidos = apellido;
+            _apellidos = apellidos;
             _telefono = telefono;
-            _direccion = direccion;
             _foto = foto;
             _fecha = fecha;
             _idDepartamento = idDepartamento;
         }
         #endregion
-
     }
 }
+

@@ -1,8 +1,4 @@
 using CompositionRoot;
-using Data.Repositories;
-using Domain.Interfaces;
-using Domain.Repos;
-using Domain.UseCases;
 
 var builder = WebApplication.CreateBuilder(args);
 

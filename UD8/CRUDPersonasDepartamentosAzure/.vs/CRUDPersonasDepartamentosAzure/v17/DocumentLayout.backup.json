@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\",
+  "WorkspaceRootPath": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\repos\\repopersonasazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\repos\\repopersonasazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\db\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\db\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA09E2C-E408-4772-8BF5-7432306FDA24}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA09E2C-E408-4772-8BF5-7432306FDA24}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\domain\\interfaces\\irepopersonasdepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepopersonasdepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,81 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Entities\\Persona.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Entities\\Persona.cs",
-              "RelativeToolTip": "Domain\\Entities\\Persona.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:48:13.031Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Departamento.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Entities\\Departamento.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Departamento.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Entities\\Departamento.cs",
-              "RelativeToolTip": "Domain\\Entities\\Departamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T09:09:46.602Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DI.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\DI.cs",
-              "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\DI.cs",
-              "RelativeToolTip": "CompositionRoot\\DI.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T12:30:56.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\DB\\Connection.cs",
-              "RelativeDocumentMoniker": "Data\\DB\\Connection.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\DB\\Connection.cs",
-              "RelativeToolTip": "Data\\DB\\Connection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T12:26:42.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepoPersonasDepartamentos.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Interfaces\\IRepoPersonasDepartamentos.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepoPersonasDepartamentos.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Interfaces\\IRepoPersonasDepartamentos.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IRepoPersonasDepartamentos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T09:03:26.606Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T20:15:01.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RepoPersonasAzure.cs",
-              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonasAzure.cs",
-              "RelativeDocumentMoniker": "Data\\Repos\\RepoPersonasAzure.cs",
-              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonasAzure.cs",
-              "RelativeToolTip": "Data\\Repos\\RepoPersonasAzure.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEBAAASAAAAAAAAAA==",
+              "Title": "PersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\PersonasController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\PersonasController.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\PersonasController.cs",
+              "RelativeToolTip": "UI\\Controllers\\PersonasController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:30:04.211Z",
+              "WhenOpened": "2025-11-30T20:12:23.473Z",
               "EditorCaption": ""
             }
           ]

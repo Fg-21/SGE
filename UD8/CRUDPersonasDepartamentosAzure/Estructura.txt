@@ -13,14 +13,14 @@ Data/
 				+ int createPersona(Persona newPersona){}
 				+ Persona getPersonaById(int id){}
 				+ Persona[] getListaPersonas(){}
-				+ int updatePersona(Persona ePersona){}
+				+ int updatePersona(int id, Persona ePersona){}
 				+ int deletePersona(int id){}
 		RepoDepartamentos.cs
 			public class RepoDepartamentos : IRepoDepartamentos{}
 				+ int createDepartamento(Departamento newDeparamento){}
 				+ Departamento getDepartamentoById(int id){}
 				+ Departamento[] getListaDepartamento(){}
-				+ int updateDepartamento(Departamento eDepartamento){}
+				+ int updateDepartamento(int id, Departamento eDepartamento){}
 				+ int deleteDepartamento(int id){} 
 Domain/
 	Entities/
@@ -75,7 +75,7 @@ Domain/
 				+ int createPersona(Persona newPersona);
 				+ Persona getPersonaById(int id);
 				+ Persona[] getListaPersonas();
-				+ int updatePersona(Persona ePersona);
+				+ int updatePersona(int id, Persona ePersona);
 				+ int deletePersona(int id);
 
 		IRepoDepartamentos.cs
@@ -83,7 +83,7 @@ Domain/
 				+ int createDepartamento(Departamento newDeparamento);
 				+ Departamento getDepartamentoById(int id);
 				+ Departamento[] getListaDepartamento();
-				+ int updateDepartamento(Departamento eDepartamento);
+				+ int updateDepartamento(int id, Departamento eDepartamento);
 				+ int deleteDepartamento(int id);
 
 		IPersonasUseCase.cs
@@ -91,28 +91,117 @@ Domain/
 				+ int createPersona(Persona newPersona);
 				+ Persona getPersonaById(int id);
 				+ Persona[] getListaPersonas();
-				+ int updatePersona(Persona ePersona);
+				+ int updatePersona(int id, Persona ePersona);
 				+ int deletePersona(int id);
+				+ PersonaWithNombreDepartamentoDto getPersonaWithNombreDepartamentoById(int idPersona);
+				+ PersonaWithListaDepartamentosDto getPersonaWithListaDepartamentos(int idPersona);
 
 		IDepartamentosUseCase.cs
 			public interface IDepartamentosUseCase
 				+ int createDepartamento(Departamento newDeparamento);
 				+ Departamento getDepartamentoById(int id);
 				+ Departamento[] getListaDepartamento();
-				+ int updateDepartamento(Departamento eDepartamento);
+				+ int updateDepartamento(int id, Departamento eDepartamento);
 				+ int deleteDepartamento(int id);
-		
-		IPersonaWithListaDepartamentosDtoUseCase.cs
-			public interface IPersonaWithListaDepartamentosDTOUseCase
-				+ PersonaWithListaDepartamentosDto getPersonaWithListaDepartamentos(int idPersona);
-
-		IPersonaWithNombreDepartamentoDtoUseCase.cs
-			public interface IPersonaWithNombreDepartamentoDtoUseCase
-				+ PersonaWithNombreDepartamentoDto getPersonaWithNombreDepartamentoById(int idPersona)
 									
 	UseCases/
+		PersonasUseCase.cs
+			public class PersonasUseCase : IPersonasUseCase
+			*Se le inyecta la interfaz del repo Personas y del Repo Departamentos*
+				+ int createPersona(Persona newPersona){}
+				+ Persona getPersonaById(int id){}
+				+ Persona[] getListaPersonas(){}
+				+ int updatePersona(int id, Persona ePersona){}
+				+ int deletePersona(int id){}
+				+ PersonaWithNombreDepartamentoDto getPersonaWithNombreDepartamentoById(int idPersona){}
+				+ PersonaWithListaDepartamentosDto getPersonaWithListaDepartamentos(int idPersona){}
+
+		DepartamentosUseCase.cs
+			public class DepartamentosUseCase : IDepartamentosUseCase
+			*Se le inyecta la interfaz del repo Departamentos*
+				+ int createDepartamento(Departamento newDeparamento){}
+				+ Departamento getDepartamentoById(int id){}
+				+ Departamento[] getListaDepartamento(){}
+				+ int updateDepartamento(int id, Departamento eDepartamento){}
+				+ int deleteDepartamento(int id){}				
+				
+
 	Dtos/
+		PersonaWithListaDepartamentosDto.cs
+			public class PersonaWithListaDepartamentosDto
+				- Persona persona
+				- List<Departamento> listaDepartamentos
+				+ PersonaWithListaDepartamentosDto(Persona persona, List<Departamento> listaDepartamentos)
+		
+		PersonaWithNombreDepartamentoDto.cs
+			public class PersonaWithNombreDepartamentoDto
+				- Persona persona
+				- string nombreDepartamento
+				+ PersonaWithNombreDepartamentoDto(Persona persona, nombreDepartamento)
+		
 UI/
 	Controllers/
+		PersonaController.cs
+			public class PersonaController
+				*Se le inyecta la interfaz del caso de uso de Personas y el de Departamentos*
+				+ IActionResult listado()
+					return View(personaUseCase.getListaPersonas())
+				
+				+IActionResult detalle(int idPersonaSeleccionada)
+					return View(personaUseCase.getPersonaWithNombreDepartamentoById(int idPersonaSeleccionada))
+				
+				+ IActionResult editar(int idPersonaSeleccionada)
+					return View(personaUseCase.getPersonaWithListaDepartamentos(idPersonaSeleccionada))
+				
+				[HTTPPost]
+				+ IActionResult editar(int idPersonaSeleccionada, Persona editedPersona)
+					return RedirectToAction("listado")
+				
+				+ IActionResult crear()
+					return View(departamentoUseCase.getListaDepartamentos())
+				
+				[HTTPPost]
+				+ IActionResult crear(Persona newPersona)
+					return RedirectToAction("listado")
+				
+				IActionResult eliminar(int idPersonaSeleccionada)
+					return View(personaUseCase.getPersonaWithNombreDepartamentoById(int idPersonaSeleccionada))
+				
+				[HTTPPost]
+				+ IActionResult eliminar(int idPersonaAEliminar)
+					return RedirectToAction("listado")
+				
+		DepartamentoController.cs
+			public class DepartamentoController
+				*Se le inyecta la interfaz del caso de uso de Departamentos*
+				+ IActionResult listado()
+					return View(departamentoUseCase.getListaDepartamentos())
+				
+				+IActionResult detalle(int idDptoSeleccionado)
+					return View(departamentoUseCase.getDepartamentoById(idDptoSeleccionado))
+				
+				+ IActionResult editar(int idDptoSeleccionado)
+					return View(departamentoUseCase.getDepartamentoById(idDptoSeleccionado))
+				
+				[HTTPPost]
+				+ IActionResult editar(int idDptoSeleccionado, Departamento editedDpto)
+					return RedirectToAction("listado")
+				
+				+ IActionResult crear()
+					return View()
+				
+				[HTTPPost]
+				+ IActionResult crear(Departamento newDpto)
+					return RedirectToAction("listado")
+				
+				IActionResult eliminar(int idDptoSeleccionado)
+					return View(departamentoUseCase.getDepartamentoById(idDptoSeleccionado))
+				
+				[HTTPPost]
+				+ IActionResult eliminar(int idDptoAEliminar)
+					return RedirectToAction("listado")
+				
+			
 	Models/
 	Views/
+	Program.cs

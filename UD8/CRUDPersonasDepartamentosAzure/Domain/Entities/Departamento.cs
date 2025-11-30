@@ -8,12 +8,12 @@ namespace Domain.Entities
 {
     public class Departamento
     {
-        #region atributos privados
+        #region Fields
         private int _id;
         private string _nombre;
         #endregion
 
-        #region getters y setters
+        #region Properties
         public int id
         {
             get { return _id; }
@@ -27,7 +27,7 @@ namespace Domain.Entities
         }
         #endregion
 
-        #region constructores
+        #region Constructors
         public Departamento() { }
 
         public Departamento(int id, string nombre)
@@ -36,6 +36,6 @@ namespace Domain.Entities
             _nombre = nombre;
         }
         #endregion
-
     }
 }
+
