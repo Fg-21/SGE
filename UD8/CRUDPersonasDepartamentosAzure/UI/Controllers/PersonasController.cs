@@ -7,7 +7,6 @@ namespace UI.Controllers
     using Domain.Entities;
     using Domain.Interfaces;
     using Microsoft.AspNetCore.Mvc;
-    using System.Collections.Generic;
 
     namespace UI.Controllers
     {
@@ -36,10 +35,10 @@ namespace UI.Controllers
             }
 
             // Detalle de una persona con nombre del departamento
-            public IActionResult detalle(int idPersonaSeleccionada)
+            public IActionResult detalle(int id)
             {
                 PersonaWithNombreDepartamentoDto personaDto =
-                    _personaUseCase.getPersonaWithNombreDepartamentoById(idPersonaSeleccionada);
+                    _personaUseCase.getPersonaWithNombreDepartamentoById(id);
 
                 if (personaDto == null)
                     return NotFound();
@@ -49,12 +48,9 @@ namespace UI.Controllers
 
             // Crear persona - GET
             public IActionResult crear()
-            {
-                // Traer lista de departamentos para el dropdown
-                List<Domain.Entities.Departamento> listaDepartamentos =
-                    new List<Domain.Entities.Departamento>(_departamentoUseCase.getListaDepartamento());
-
-                return View(listaDepartamentos);
+            {                
+                    var dto = _personaUseCase.GetPersonaParaCrear();
+                    return View(dto);
             }
 
             // Crear persona - POST
@@ -63,22 +59,43 @@ namespace UI.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    _personaUseCase.createPersona(newPersona);
-                    return RedirectToAction("listado");
+                    var dto = _personaUseCase.GetPersonaParaCrear();
+                    dto.persona = newPersona;
+                    return View(dto);
                 }
 
-                // Si falla validación, recargar lista de departamentos
-                List<Domain.Entities.Departamento> listaDepartamentos =
-                    new List<Domain.Entities.Departamento>(_departamentoUseCase.getListaDepartamento());
+                try
+                {
+                    // 2. Guardar la persona y verificar si la operación fue exitosa (debe devolver > 0)
+                    int rowsAffected = _personaUseCase.createPersona(newPersona);
 
-                return View(listaDepartamentos);
+                    if (rowsAffected > 0)
+                    {
+                        // Éxito: Redirige a la lista
+                        return RedirectToAction(nameof(Index));
+                    }
+                    else
+                    {
+                        // Falló la inserción sin lanzar excepción (por ejemplo, lógica interna del Use Case)
+                        throw new Exception("La base de datos no pudo crear la persona.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // 3. Error: Vuelve a la vista de creación y muestra el error
+                    var dto = _personaUseCase.GetPersonaParaCrear();
+                    dto.persona = newPersona; // Asegura que se muestren los datos que el usuario intentó guardar
+                    ModelState.AddModelError("", $"Error al crear la persona: {ex.Message}");
+                    return View(dto);
+                }
             }
+            
 
             // Editar persona - GET
-            public IActionResult editar(int idPersonaSeleccionada)
+            public IActionResult editar(int id)
             {
                 PersonaWithListaDepartamentosDto personaDto =
-                    _personaUseCase.getPersonaWithListaDepartamentos(idPersonaSeleccionada);
+                    _personaUseCase.getPersonaWithListaDepartamentos(id);
 
                 if (personaDto == null)
                     return NotFound();
@@ -88,26 +105,26 @@ namespace UI.Controllers
 
             // Editar persona - POST
             [HttpPost]
-            public IActionResult editar(int idPersonaSeleccionada, Persona editedPersona)
+            public IActionResult editar(int id, Persona editedPersona)
             {
                 if (ModelState.IsValid)
                 {
-                    _personaUseCase.updatePersona(idPersonaSeleccionada, editedPersona);
+                    _personaUseCase.updatePersona(id, editedPersona);
                     return RedirectToAction("listado");
                 }
 
                 // Si falla validación, recargar DTO para volver a mostrar el formulario
                 PersonaWithListaDepartamentosDto personaDto =
-                    _personaUseCase.getPersonaWithListaDepartamentos(idPersonaSeleccionada);
+                    _personaUseCase.getPersonaWithListaDepartamentos(id);
 
                 return View(personaDto);
             }
 
             // Eliminar persona - GET (confirmación)
-            public IActionResult eliminar(int idPersonaSeleccionada)
+            public IActionResult eliminar(int id)
             {
                 PersonaWithNombreDepartamentoDto personaDto =
-                    _personaUseCase.getPersonaWithNombreDepartamentoById(idPersonaSeleccionada);
+                    _personaUseCase.getPersonaWithNombreDepartamentoById(id);
 
                 if (personaDto == null)
                     return NotFound();
@@ -117,9 +134,9 @@ namespace UI.Controllers
 
             // Eliminar persona - POST
             [HttpPost]
-            public IActionResult eliminar(int idPersonaAEliminar, IFormCollection collection)
+            public IActionResult eliminar(int id, IFormCollection collection)
             {
-                _personaUseCase.deletePersona(idPersonaAEliminar);
+                _personaUseCase.deletePersona(id);
                 return RedirectToAction("listado");
             }
 

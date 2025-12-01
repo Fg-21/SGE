@@ -22,6 +22,7 @@ namespace Domain.Interfaces
         #region DTO Methods
         PersonaWithNombreDepartamentoDto getPersonaWithNombreDepartamentoById(int idPersona);
         PersonaWithListaDepartamentosDto getPersonaWithListaDepartamentos(int idPersona);
+        public PersonaWithListaDepartamentosDto GetPersonaParaCrear();
         #endregion
     }
 }

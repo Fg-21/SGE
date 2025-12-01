@@ -73,6 +73,14 @@ namespace UseCases
             List<Departamento> listaDptos = new List<Departamento>(_repoDepartamentos.getListaDepartamento());
             return new PersonaWithListaDepartamentosDto(persona, listaDptos);
         }
+
+        public PersonaWithListaDepartamentosDto GetPersonaParaCrear()
+        {
+            Persona personaVacia = new Persona();
+            List<Departamento> departamentos = _repoDepartamentos.getListaDepartamento().ToList();
+
+            return new PersonaWithListaDepartamentosDto(personaVacia, departamentos);
+        }
         #endregion
     }
 }

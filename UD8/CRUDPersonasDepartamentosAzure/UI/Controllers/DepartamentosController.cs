@@ -31,9 +31,9 @@ namespace UI.Controllers
         }
 
         // Detalle de un departamento
-        public IActionResult detalle(int idDptoSeleccionado)
+        public IActionResult detalle(int id)
         {
-            Departamento dpto = _departamentoUseCase.getDepartamentoById(idDptoSeleccionado);
+            Departamento dpto = _departamentoUseCase.getDepartamentoById(id);
             if (dpto == null)
                 return NotFound();
 
@@ -60,9 +60,9 @@ namespace UI.Controllers
         }
 
         // Editar departamento - GET
-        public IActionResult editar(int idDptoSeleccionado)
+        public IActionResult editar(int id)
         {
-            Departamento dpto = _departamentoUseCase.getDepartamentoById(idDptoSeleccionado);
+            Departamento dpto = _departamentoUseCase.getDepartamentoById(id);
             if (dpto == null)
                 return NotFound();
 
@@ -71,11 +71,11 @@ namespace UI.Controllers
 
         // Editar departamento - POST
         [HttpPost]
-        public IActionResult editar(int idDptoSeleccionado, Departamento editedDpto)
+        public IActionResult editar(int id, Departamento editedDpto)
         {
             if (ModelState.IsValid)
             {
-                _departamentoUseCase.updateDepartamento(idDptoSeleccionado, editedDpto);
+                _departamentoUseCase.updateDepartamento(id, editedDpto);
                 return RedirectToAction("listado");
             }
 
@@ -83,9 +83,9 @@ namespace UI.Controllers
         }
 
         // Eliminar departamento - GET (confirmación)
-        public IActionResult eliminar(int idDptoSeleccionado)
+        public IActionResult eliminar(int id)
         {
-            Departamento dpto = _departamentoUseCase.getDepartamentoById(idDptoSeleccionado);
+            Departamento dpto = _departamentoUseCase.getDepartamentoById(id);
             if (dpto == null)
                 return NotFound();
 
@@ -94,9 +94,9 @@ namespace UI.Controllers
 
         // Eliminar departamento - POST
         [HttpPost]
-        public IActionResult eliminar(int idDptoAEliminar, IFormCollection collection)
+        public IActionResult eliminar(int id, IFormCollection collection)
         {
-            _departamentoUseCase.deleteDepartamento(idDptoAEliminar);
+            _departamentoUseCase.deleteDepartamento(id);
             return RedirectToAction("listado");
         }
 

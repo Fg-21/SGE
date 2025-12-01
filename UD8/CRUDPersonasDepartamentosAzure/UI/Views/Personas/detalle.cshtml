@@ -1,0 +1,24 @@
+﻿@model Domain.Dtos.PersonaWithNombreDepartamentoDto
+
+@{
+    ViewData["Title"] = "detalle";
+}
+
+<h1>detalle</h1>
+
+<div>
+    <h4>PersonaWithNombreDepartamentoDto</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nombreDepartamento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nombreDepartamento)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "editar", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\",
+  "WorkspaceRootPath": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\repos\\repopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\repos\\repopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\controllers\\api\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\controllers\\api\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T20:15:01.799Z",
+              "DocumentIndex": 1,
+              "Title": "RepoPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonas.cs",
+              "RelativeDocumentMoniker": "Data\\Repos\\RepoPersonas.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonas.cs",
+              "RelativeToolTip": "Data\\Repos\\RepoPersonas.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:34:42.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PersonasController.cs",
-              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\PersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\PersonasController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\PersonasController.cs",
-              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\PersonasController.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\PersonasController.cs",
               "RelativeToolTip": "UI\\Controllers\\PersonasController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T20:12:23.473Z",
+              "WhenOpened": "2025-12-01T13:33:32.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\PersonasController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonasController.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\PersonasController.cs",
+              "RelativeToolTip": "UI\\Controllers\\API\\PersonasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:29:20.7Z",
               "EditorCaption": ""
             }
           ]

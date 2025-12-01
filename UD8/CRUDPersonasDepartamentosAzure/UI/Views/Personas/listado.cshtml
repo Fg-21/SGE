@@ -7,7 +7,7 @@
 <h1>listado</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="crear">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -38,9 +38,9 @@
                 <td>@Html.DisplayFor(modelItem => item.fecha)</td>
                 <td>@Html.DisplayFor(modelItem => item.idDepartamento)</td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    @Html.ActionLink("Edit", "editar", new { id=item.id }) |
+                    @Html.ActionLink("Details", "detalle", new { id = item.id }) |
+                    @Html.ActionLink("Delete", "eliminar", new { id = item.id })
                 </td>
             </tr>
         }
