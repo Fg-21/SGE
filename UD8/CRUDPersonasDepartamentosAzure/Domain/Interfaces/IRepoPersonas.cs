@@ -16,6 +16,8 @@ namespace Domain.Interfaces
         Persona[] getListaPersonas();
         int updatePersona(int id, Persona ePersona);
         int deletePersona(int id);
+
+        List<Persona> getLISTAPersonas();
         #endregion
     }
 }

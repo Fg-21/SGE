@@ -16,6 +16,7 @@ namespace Domain.Interfaces
         Departamento[] getListaDepartamento();
         int updateDepartamento(int id, Departamento eDepartamento);
         int deleteDepartamento(int id);
+        List<Departamento> getLISTADepartamento();
         #endregion
     }
 }

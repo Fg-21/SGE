@@ -186,6 +186,45 @@ namespace Data.Repos
         }
         #endregion
 
+        List<Departamento> getLISTADepartamento()
+        {
+            List<Departamento> lista = new List<Departamento>();
+
+            using (SqlConnection miConexion = new SqlConnection(_connectionString))
+            {
+                string query = "SELECT * FROM Departamentos";
+
+                using (SqlCommand miComando = new SqlCommand(query, miConexion))
+                {
+                    try
+                    {
+                        miConexion.Open();
+                        using (SqlDataReader miLector = miComando.ExecuteReader())
+                        {
+                            if (miLector.HasRows)
+                            {
+                                while (miLector.Read())
+                                {
+                                    Departamento dpto = new Departamento
+                                    {
+                                        id = (int)miLector["ID"],
+                                        nombre = (string)miLector["Nombre"]
+                                    };
+                                    lista.Add(dpto);
+                                }
+                            }
+                        }
+                    }
+                    catch (SqlException ex)
+                    {
+                        throw ex;
+                    }
+                }
+            }
+
+            return lista;
+        }
+
         #region Extra Methods
         public int contarPersonasDepartamentos(int idDepartamento)
         {
@@ -212,6 +251,11 @@ namespace Data.Repos
             }
 
             return contador;
+        }
+
+        List<Departamento> IRepoDepartamentos.getLISTADepartamento()
+        {
+            return getLISTADepartamento();
         }
         #endregion
     }

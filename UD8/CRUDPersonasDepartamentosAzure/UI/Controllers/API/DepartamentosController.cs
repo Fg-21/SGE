@@ -1,7 +1,7 @@
-﻿using Domain.Dtos;
-using Domain.Entities;
+﻿using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using UseCases;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -9,32 +9,31 @@ namespace UI.Controllers.API
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PersonasController : ControllerBase
+    public class DepartamentosController : ControllerBase
     {
+
         #region Campos
-        private readonly IPersonasUseCase _personaUseCase;
+        private readonly IDepartamentosUseCase _departamentoUseCase;
         #endregion
 
         #region useCases
-        public PersonasController(IPersonasUseCase personaUseCase)
+        public DepartamentosController(IDepartamentosUseCase departamentoUseCase)
         {
-            _personaUseCase = personaUseCase;
+            _departamentoUseCase = departamentoUseCase;
         }
         #endregion
 
-        #region API Methods
-        // GET: api/<PersonasController>
+        // GET: api/<DepartamentosController>
         [HttpGet]
         public IActionResult Get()
         {
             IActionResult salida;
-            List<PersonaWithNombreDepartamentoDto> lista = new List<PersonaWithNombreDepartamentoDto>();
-
+            List<Departamento> lista;
             try
             {
-                lista = _personaUseCase.getListaPersonasWithNombreDptos();
-                if (lista.Count() == 0) {
-                    salida = NoContent();
+                lista = _departamentoUseCase.getLISTADepartamento();
+                if (lista.Count == 0) {
+                    salida = NotFound();
                 }
                 else
                 {
@@ -49,70 +48,70 @@ namespace UI.Controllers.API
             return salida;
         }
 
-        // GET api/<PersonasController>/5
+        // GET api/<DepartamentosController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             IActionResult salida;
             try
             {
-                Persona persona = _personaUseCase.getPersonaById(id);
-                salida = Ok(persona);
+                Departamento departamento = _departamentoUseCase.getDepartamentoById(id);
+                salida = Ok(departamento);
             }
             catch
             {
-                salida = NotFound();
+                salida = NoContent();
             }
-            
+
 
             return salida;
         }
 
-        // POST api/<PersonasController>
+        // POST api/<DepartamentosController>
         [HttpPost]
-        public IActionResult Post(Persona persona)
+        public IActionResult Post(Departamento dpto)
         {
             IActionResult salida;
             int filasAfectadas;
 
             try
             {
-                filasAfectadas = _personaUseCase.createPersona(persona);
-                if(filasAfectadas == 0)
-                {
-                    salida = NotFound();
-                }
-                else
-                {
-                    salida=Ok(persona);
-                }
-            }
-            catch
-            {
-                salida = BadRequest();
-            }
-
-
-            return salida;
-        }
-
-        // PUT api/<PersonasController>/5
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, Persona persona)
-        {
-            IActionResult salida;
-            int filasAfectadas;
-
-            try
-            {
-                filasAfectadas = _personaUseCase.updatePersona(id, persona);
+                filasAfectadas = _departamentoUseCase.createDepartamento(dpto);
                 if (filasAfectadas == 0)
                 {
                     salida = NotFound();
                 }
                 else
                 {
-                    salida = Ok(persona);
+                    salida = Ok(dpto);
+                }
+            }
+            catch
+            {
+                salida = BadRequest();
+            }
+
+
+            return salida;
+        }
+
+        // PUT api/<DepartamentosController>/5
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, Departamento dpto)
+        {
+            IActionResult salida;
+            int filasAfectadas;
+
+            try
+            {
+                filasAfectadas = _departamentoUseCase.updateDepartamento(id, dpto);
+                if (filasAfectadas == 0)
+                {
+                    salida = NotFound();
+                }
+                else
+                {
+                    salida = Ok(dpto);
                 }
             }
             catch
@@ -122,33 +121,33 @@ namespace UI.Controllers.API
             return salida;
         }
 
-        // DELETE api/<PersonasController>/5
+        // DELETE api/<DepartamentosController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             IActionResult salida;
             int filasAfectadas;
-            Persona persona;
+            Departamento dpto;
 
             try
             {
-                persona = _personaUseCase.getPersonaById(id);
-                filasAfectadas = _personaUseCase.deletePersona(id);
-                if ( filasAfectadas == 0)
+                dpto = _departamentoUseCase.getDepartamentoById(id);
+                filasAfectadas = _departamentoUseCase.deleteDepartamento(id);
+                if (filasAfectadas == 0)
                 {
                     salida = NotFound();
-                } else
+                }
+                else
                 {
-                    salida = Ok(persona);
+                    salida = Ok(dpto);
                 }
             }
             catch
             {
-                salida= BadRequest();
+                salida = BadRequest();
             }
 
             return salida;
         }
-        #endregion
     }
 }

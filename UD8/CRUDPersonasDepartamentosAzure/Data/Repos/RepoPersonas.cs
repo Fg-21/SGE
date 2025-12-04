@@ -210,6 +210,52 @@ namespace Data.Repos
 
             return rowsAffected;
         }
+
+        public List<Persona> getLISTAPersonas()
+        {
+            List<Persona> listadoPersonas = new List<Persona>();
+
+            using (SqlConnection miConexion = new SqlConnection(_connectionString))
+            {
+                SqlCommand miComando = new SqlCommand
+                {
+                    CommandText = "SELECT * FROM Personas",
+                    Connection = miConexion
+                };
+
+                try
+                {
+                    miConexion.Open();
+                    using (SqlDataReader miLector = miComando.ExecuteReader())
+                    {
+                        if (miLector.HasRows)
+                        {
+                            while (miLector.Read())
+                            {
+                                Persona oPersona = new Persona
+                                {
+                                    id = (int)miLector["ID"],
+                                    nombre = (string)miLector["Nombre"],
+                                    apellidos = (string)miLector["Apellidos"],
+                                    telefono = (string)miLector["Telefono"],
+                                    direccion = (string)miLector["Direccion"],
+                                    foto = (string)miLector["Foto"],
+                                    fecha = miLector["FechaNacimiento"] != DBNull.Value ? (DateTime)miLector["FechaNacimiento"] : DateTime.MinValue,
+                                    idDepartamento = (int)miLector["IDDepartamento"]
+                                };
+                                listadoPersonas.Add(oPersona);
+                            }
+                        }
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    throw ex;
+                }
+            }
+
+            return listadoPersonas;
+        }
         #endregion
     }
 }

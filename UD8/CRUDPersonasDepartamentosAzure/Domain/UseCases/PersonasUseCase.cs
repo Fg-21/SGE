@@ -54,6 +54,25 @@ namespace UseCases
         #endregion
 
         #region DTO Methods
+        public List<PersonaWithNombreDepartamentoDto> getListaPersonasWithNombreDptos()
+        {
+            List<PersonaWithNombreDepartamentoDto> lista = new List<PersonaWithNombreDepartamentoDto>();
+            List<Persona> listaPersonas;
+            listaPersonas = _repoPersonas.getLISTAPersonas();
+            string nombreDpto;
+            PersonaWithNombreDepartamentoDto dto;
+
+            foreach (Persona persona in listaPersonas)
+            {
+                nombreDpto = _repoDepartamentos.getDepartamentoById(persona.idDepartamento).nombre;
+                dto = new PersonaWithNombreDepartamentoDto(persona, nombreDpto);
+                lista.Add(dto);
+            }
+
+
+            return lista;
+        }
+
         public PersonaWithNombreDepartamentoDto getPersonaWithNombreDepartamentoById(int idPersona)
         {
             Persona persona = _repoPersonas.getPersonaById(idPersona);
@@ -80,6 +99,18 @@ namespace UseCases
             List<Departamento> departamentos = _repoDepartamentos.getListaDepartamento().ToList();
 
             return new PersonaWithListaDepartamentosDto(personaVacia, departamentos);
+        }
+
+        public List<PersonaWithListaDepartamentosDto> getListaPersonasWithListaDepartamentosDto()
+        {
+            Persona[] listaPersonas = _repoPersonas.getListaPersonas();
+            List<PersonaWithListaDepartamentosDto> lista = [];
+            List<Departamento> departamentos = _repoDepartamentos.getListaDepartamento().ToList();
+            foreach (Persona persona in listaPersonas)
+            {
+                lista.Add(new PersonaWithListaDepartamentosDto(persona, departamentos));
+            }
+            return lista;
         }
         #endregion
     }

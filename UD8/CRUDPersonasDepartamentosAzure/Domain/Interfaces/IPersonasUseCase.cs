@@ -20,9 +20,11 @@ namespace Domain.Interfaces
         #endregion
 
         #region DTO Methods
+        List<PersonaWithNombreDepartamentoDto> getListaPersonasWithNombreDptos();
         PersonaWithNombreDepartamentoDto getPersonaWithNombreDepartamentoById(int idPersona);
         PersonaWithListaDepartamentosDto getPersonaWithListaDepartamentos(int idPersona);
-        public PersonaWithListaDepartamentosDto GetPersonaParaCrear();
+        PersonaWithListaDepartamentosDto GetPersonaParaCrear();
+        List<PersonaWithListaDepartamentosDto> getListaPersonasWithListaDepartamentosDto();
         #endregion
     }
 }

@@ -57,6 +57,11 @@ namespace UseCases
 
             return resultado;
         }
+
+        public List<Departamento> getLISTADepartamento()
+        {
+            return _repoDepartamentos.getLISTADepartamento();
+        }
         #endregion
     }
 }
