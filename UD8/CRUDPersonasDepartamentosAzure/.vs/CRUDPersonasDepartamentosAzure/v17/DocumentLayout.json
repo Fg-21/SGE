@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FA09E2C-E408-4772-8BF5-7432306FDA24}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA09E2C-E408-4772-8BF5-7432306FDA24}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\repos\\repopersonasmock100.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\repos\\repopersonasmock100.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\domain\\usecases\\personasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\personasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\repos\\repopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\repos\\repopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\domain\\interfaces\\irepopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA474B9C-C49F-4F01-9A43-86CBF4682608}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\repos\\repodepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\repos\\repodepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fm.gonzalez\\documents\\github\\sge\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\controllers\\api\\personawithlistadepartamentodtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\controllers\\api\\personawithlistadepartamentodtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +54,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DI.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\DI.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\DI.cs",
+              "RelativeToolTip": "CompositionRoot\\DI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:52:37.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepoPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Interfaces\\IRepoPersonas.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepoPersonas.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Interfaces\\IRepoPersonas.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IRepoPersonas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:51:45.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepoDepartamentos.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoDepartamentos.cs",
+              "RelativeDocumentMoniker": "Data\\Repos\\RepoDepartamentos.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoDepartamentos.cs",
+              "RelativeToolTip": "Data\\Repos\\RepoDepartamentos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:50:25.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepoPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonas.cs",
+              "RelativeDocumentMoniker": "Data\\Repos\\RepoPersonas.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonas.cs",
+              "RelativeToolTip": "Data\\Repos\\RepoPersonas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:49:30.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepoPersonasMock100.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonasMock100.cs",
+              "RelativeDocumentMoniker": "Data\\Repos\\RepoPersonasMock100.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\Repos\\RepoPersonasMock100.cs",
+              "RelativeToolTip": "Data\\Repos\\RepoPersonasMock100.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:50:11.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PersonasUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\UseCases\\PersonasUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\PersonasUseCase.cs",
+              "ToolTip": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\UseCases\\PersonasUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCases\\PersonasUseCase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:45:45.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IPersonasUseCase.cs",
               "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Interfaces\\IPersonasUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IPersonasUseCase.cs",
@@ -42,12 +144,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IPersonasUseCase.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAiwBoAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T11:51:25.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T11:51:25.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "PersonaWithListaDepartamentoDtoController.cs",
               "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\PersonaWithListaDepartamentoDtoController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonaWithListaDepartamentoDtoController.cs",
@@ -60,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "PersonaWithNombreDepartamentoDtoController.cs",
               "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\PersonaWithNombreDepartamentoDtoController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonaWithNombreDepartamentoDtoController.cs",
@@ -68,12 +169,11 @@
               "RelativeToolTip": "UI\\Controllers\\API\\PersonaWithNombreDepartamentoDtoController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T11:47:05.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T11:47:05.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "DepartamentosController.cs",
               "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\DepartamentosController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\DepartamentosController.cs",
@@ -81,12 +181,11 @@
               "RelativeToolTip": "UI\\Controllers\\API\\DepartamentosController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T11:10:19.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T11:10:19.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "PersonasController.cs",
               "DocumentMoniker": "C:\\Users\\fm.gonzalez\\Documents\\GitHub\\SGE\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\PersonasController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonasController.cs",
@@ -94,8 +193,7 @@
               "RelativeToolTip": "UI\\Controllers\\API\\PersonasController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwD8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:29:20.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T13:29:20.7Z"
             }
           ]
         }
