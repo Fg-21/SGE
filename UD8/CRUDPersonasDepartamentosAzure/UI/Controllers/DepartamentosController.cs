@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-
-using Domain.Entities;
+﻿using Domain.Entities;
 using Domain.Interfaces;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using UseCases;
 
 namespace UI.Controllers
 {
@@ -24,10 +24,31 @@ namespace UI.Controllers
         #region Actions
 
         // Listado de departamentos
-        public IActionResult listado()
+        [HttpGet]
+        public IActionResult Get()
         {
-            var lista = _departamentoUseCase.getListaDepartamento();
-            return View(lista);
+            IActionResult salida;
+            List<Departamento> listadoCompleto = new List<Departamento>();
+
+            try
+            {
+
+                listadoCompleto = _departamentoUseCase.getLISTADepartamento();
+                if (listadoCompleto.Count() == 0)
+                {
+                    salida = NoContent();
+                }
+                else
+                {
+                    salida = Ok(listadoCompleto);
+                }
+            }
+            catch
+            {
+                salida = BadRequest();
+            }
+            return salida;
+
         }
 
         // Detalle de un departamento
