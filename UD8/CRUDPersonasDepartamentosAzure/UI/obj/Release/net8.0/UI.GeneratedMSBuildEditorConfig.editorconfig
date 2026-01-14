@@ -17,81 +17,81 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UI
 build_property.RootNamespace = UI
-build_property.ProjectDir = C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\CRUDPersonasDepartamentosAzure\UI\
+build_property.ProjectDir = C:\Users\Fran\OneDrive\Documentos\GitHub\SGE\UD8\CRUDPersonasDepartamentosAzure\UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\CRUDPersonasDepartamentosAzure\UI
+build_property.MSBuildProjectDirectory = C:\Users\Fran\OneDrive\Documentos\GitHub\SGE\UD8\CRUDPersonasDepartamentosAzure\UI
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/crear.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXGNyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/detalle.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXGRldGFsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/editar.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXGVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/eliminar.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXGVsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/listado.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Departamento/listado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXGxpc3RhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Home/Index.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Home/Privacy.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/crear.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcY3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/detalle.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcZGV0YWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/editar.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcZWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/eliminar.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcZWxpbWluYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/listado.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Personas/listado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcbGlzdGFkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Shared/Error.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/_ViewImports.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/_ViewStart.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fm.gonzalez/Documents/GitHub/SGE/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Shared/_Layout.cshtml]
+[C:/Users/Fran/OneDrive/Documentos/GitHub/SGE/UD8/CRUDPersonasDepartamentosAzure/UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k1t0mrplc2

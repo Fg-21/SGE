@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\ui\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EEB79F-FCBF-4E6C-BFF6-D757EE2B6581}|UI\\UI.csproj|solutionrelative:ui\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|c:\\users\\fran\\onedrive\\documentos\\github\\sge\\ud8\\crudpersonasdepartamentosazure\\data\\db\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F67CB15C-DF73-4087-B4BA-9C09309D30D3}|Data\\Data.csproj|solutionrelative:data\\db\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,19 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DepartamentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\DepartamentosController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\DepartamentosController.cs",
+              "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\DepartamentosController.cs",
+              "RelativeToolTip": "UI\\Controllers\\DepartamentosController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T03:46:37.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Connection.cs",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\DB\\Connection.cs",
               "RelativeDocumentMoniker": "Data\\DB\\Connection.cs",
               "ToolTip": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Data\\DB\\Connection.cs",
               "RelativeToolTip": "Data\\DB\\Connection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T03:19:19.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PersonasUseCase.cs",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\UseCases\\PersonasUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCases\\PersonasUseCase.cs",
@@ -71,12 +88,11 @@
               "RelativeToolTip": "Domain\\UseCases\\PersonasUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T17:23:16.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T17:23:16.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DI.cs",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\CompositionRoot\\DI.cs",
               "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "crear.cshtml",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Views\\Personas\\crear.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Personas\\crear.cshtml",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IPersonasUseCase.cs",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\Domain\\Interfaces\\IPersonasUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IPersonasUseCase.cs",
@@ -112,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PersonaWithListaDepartamentoDtoController.cs",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\PersonaWithListaDepartamentoDtoController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonaWithListaDepartamentoDtoController.cs",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PersonaWithNombreDepartamentoDtoController.cs",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\PersonaWithNombreDepartamentoDtoController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonaWithNombreDepartamentoDtoController.cs",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DepartamentosController.cs",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\DepartamentosController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\DepartamentosController.cs",
@@ -148,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PersonasController.cs",
               "DocumentMoniker": "C:\\Users\\Fran\\OneDrive\\Documentos\\GitHub\\SGE\\UD8\\CRUDPersonasDepartamentosAzure\\UI\\Controllers\\API\\PersonasController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonasController.cs",
