@@ -11,5 +11,6 @@ import { Listilla } from './components/listilla/listilla';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('holaMundoAngular');
+  protected readonly title = signal('ej1Paginas');
 }
+
