@@ -1,0 +1,12 @@
+<form>
+    <label for="name">Id:</label>
+    <input type="id" [(ngModel)]="persona.id" name="id" placeholder="Id" required>
+    <br>
+    <label for="name">Name:</label>
+    <input type="name" [(ngModel)]="persona.nombre" name="name" placeholder="Nombre" required>
+
+    <button (click)="saludar()">Saludar</button>
+</form>
+
+<a routerLink ="" routerLinkActive="active" ariaCurrentWhenActive="page">Volver a la tabla</a>
+

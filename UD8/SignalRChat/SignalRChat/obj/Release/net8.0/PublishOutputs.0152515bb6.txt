@@ -1,0 +1,8 @@
+C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\SignalRChat.exe
+C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\libman.json
+C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\SignalRChat.dll
+C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\SignalRChat.deps.json
+C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\SignalRChat.runtimeconfig.json
+C:\Users\fm.gonzalez\Documents\GitHub\SGE\SGE\UD8\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\SignalRChat.pdb
