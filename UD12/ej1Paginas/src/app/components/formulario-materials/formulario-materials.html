@@ -1,0 +1,27 @@
+<form [formGroup]="formulario">
+    <div>
+    <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input matInput placeholder="Nombre" formControlName="nombre">
+        @if ((formulario.controls['nombre'].dirty || formulario.controls['nombre'].touched)
+            &&this.formulario.controls['nombre'].errors?.['required']){
+            <span>Obligatorio que no vaya vacio</span>
+            }
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+    </div>
+    <div>
+    <mat-form-field appearance="outline">
+        <mat-label>Apelllidos</mat-label>
+        <input matInput placeholder="Apellidos" formControlName="apellidos">
+        @if ((formulario.controls['apellidos'].dirty || formulario.controls['apellidos'].touched)
+            &&this.formulario.controls['apellidos'].errors?.['required']){
+            <span>Obligatorio que no vaya vacio</span>
+            }
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+    </div>
+    <div>
+        <button matButton="outlined" (click)=saluda()>Saluda</button>
+    </div>
+</form>
