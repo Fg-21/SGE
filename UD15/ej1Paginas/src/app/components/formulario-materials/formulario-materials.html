@@ -5,7 +5,7 @@
         <input matInput placeholder="Nombre" formControlName="nombre">
         @if ((formulario.controls['nombre'].dirty || formulario.controls['nombre'].touched)
             &&this.formulario.controls['nombre'].errors?.['required']){
-            <span>Obligatorio que no vaya vacio</span>
+            <span>No puede ir vacio</span>
             }
         <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
     </mat-form-field>
