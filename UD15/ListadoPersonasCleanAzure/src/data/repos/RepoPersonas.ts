@@ -1,9 +1,13 @@
+import { Injectable } from "@angular/core";
 import { Persona } from "../../domain/entities/Persona";
 import { IRepoPersonas } from "../../domain/interfaces/IRepoPersonas";
+import ApiBase from "../api/ApiBase";
 
-
+@Injectable({
+    providedIn: 'root'
+})
 export class PersonasRepositoryAzure implements IRepoPersonas {
-    API_URL = "https://ui20251201140330-ahdqhwe3c6cxcrfk.italynorth-01.azurewebsites.net/API/"
+    API_URL = ApiBase.getApiBase()
     
     async getListadoCompletoPersonas(): Promise<Persona[]> {
         try {
@@ -29,7 +33,7 @@ export class PersonasRepositoryAzure implements IRepoPersonas {
 
         } catch (error) {
             console.error("Error al obtener personas:", error);
-            throw error; // Re-lanzar el error para que el ViewModel lo maneje
+            throw error;
         }
     }
 }

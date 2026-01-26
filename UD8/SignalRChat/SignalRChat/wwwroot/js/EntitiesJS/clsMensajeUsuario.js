@@ -4,7 +4,7 @@
     {
         constructor(nombre: String, mensaje: String) {
             this.nombre = nombre
-            this.menssage = mensaje
+            this.mensaje = mensaje
         }
 
     }
